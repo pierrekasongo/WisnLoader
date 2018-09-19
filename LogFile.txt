@@ -1,0 +1,245 @@
+**********************************************************************
+				 Log file
+**********************************************************************
+List of facilities created: 
+1 - CS_DITEKEMENA
+2 - CS_KABEYA_LUMBU
+3 - CS_KANZA
+4 - CS_LUMUKA
+5 - CS_MBM_PHENIX
+6 - CS_SHEKINAH
+7 - CS_FRATERNITE
+8 - CS_KAMATOMA
+9 - CS_MBUJI
+10 - CS_SHEKINAH
+11 - CS_BAT_BAN_BAT
+12 - HGR_ALUNGULI
+13 - HGR_KAILO
+14 - HGR_KALIMA
+15 - HGR_KASONGO
+16 - HGR_KINDU
+17 - CS_CMD_MUKENDI
+18 - CS_DIBUMBA
+19 - CS_ERMECO
+20 - CS_MOYO_MUPELUKE
+21 - CS_DEMBA_CITE
+22 - CS_SANTA_MARIA
+23 - CS_KAMULUMBA
+24 - CS_METHODISTE
+25 - CS_CERDES
+26 - CS_MAMUWETU
+27 - CS_DIKONGAYI_SAINT_LUC
+28 - CS_TUDIKOLELE
+29 - CS_KAMBUNDI
+30 - CS_MATAMBA
+31 - CS_CHRIST_ROI
+32 - HGR_KALONDA_OUEST
+33 - HGR_KANZALA
+34 - HGR_KITANGUA
+35 - HGR_TSHIKAPA
+36 - CS_NKUFULU
+37 - CS_KALEMBA_MULUMBA
+38 - CS_SALONGO_MUIMBA
+39 - CS_BARELLE******************************
+	OPD not updated
+40 - CS_HOSANNA******************************
+	OPD not updated
+41 - CS_LA_GLOIRE******************************
+	OPD not updated
+42 - CS_LA_GRACE******************************
+	OPD not updated
+43 - CS_LIBONDI******************************
+	OPD not updated
+44 - CS_SILOE******************************
+	OPD not updated
+45 - CS_TUWISANA******************************
+	OPD not updated
+46 - CS_CASOP##############################
+	OPD not updated
+	Existing Staff not updated
+47 - CS_CBFC_LISALA##############################
+	OPD not updated
+	Existing Staff not updated
+48 - CS_CHRISCO******************************
+	OPD not updated
+49 - CS_CLINIQUE_DES_ANGES******************************
+	OPD not updated
+50 - CS_SAINTE_MARIE******************************
+	OPD not updated
+51 - CS_TRINITE******************************
+	OPD not updated
+52 - CS_VICTORIA******************************
+	OPD not updated
+53 - CS_BISENGO_MWAMBE******************************
+	OPD not updated
+54 - CS_BOSEMBO******************************
+	OPD not updated
+55 - CS_KIKIMI******************************
+	OPD not updated
+56 - CS_MARECHAL******************************
+	OPD not updated
+57 - CS_MFUMUKENTO******************************
+	OPD not updated
+58 - CS_MIKONDO******************************
+	OPD not updated
+59 - CS_NGAMPANI******************************
+	OPD not updated
+60 - CS_BOLINGANI******************************
+	OPD not updated
+61 - HGR_ABUZI
+62 - HGR_BILI
+63 - HGR_BOSOBOLO
+64 - HGR_BUSINGA
+65 - HGR_GBADOLITE
+66 - HGR_KARAWA
+67 - HGR_LOKO
+68 - HGR_MOBAYIMBONGO
+69 - HGR_WAPINDA
+70 - HGR_YAKOMA
+71 - CS_LONDOLOBE******************************
+	OPD not updated
+72 - CS_MOLENDE******************************
+	OPD not updated
+73 - CS_SAINT_PAUL******************************
+	OPD not updated
+74 - CS_SANTE_MEDICALE******************************
+	OPD not updated
+75 - CS_TATA_MOSALA******************************
+	OPD not updated
+76 - CS_TEMBO##############################
+	OPD not updated
+	Existing Staff not updated
+77 - CS_MATERNITE_ESENGO******************************
+	OPD not updated
+78 - CS_MISERICORDE******************************
+	OPD not updated
+79 - CS_MUSHIE******************************
+	OPD not updated
+80 - CS_SAINT_AMBROISE******************************
+	OPD not updated
+81 - CS_SUNGU******************************
+	OPD not updated
+82 - CS_TOBATELA******************************
+	OPD not updated
+83 - CS_YMCA******************************
+	OPD not updated
+84 - CS_BOLIA******************************
+	OPD not updated
+85 - HGR_DEMBA
+86 - HGR_KANANGA
+87 - HGR_KATOKA
+88 - HGR_LUKONGA
+89 - HGR_MIKALAYI
+90 - HGR_NDESHA
+91 - HGR_TSHIKAJI
+92 - CS_KMC_MATETE##############################
+	OPD not updated
+	Existing Staff not updated
+93 - CS_LUNIONZO******************************
+	OPD not updated
+94 - CS_MAZIBA******************************
+	OPD not updated
+95 - CS_MERAVIE******************************
+	OPD not updated
+96 - CS_POLYCLINIQUE_MATETE##############################
+	OPD not updated
+	Existing Staff not updated
+97 - CS_SAINT_RAYMOND******************************
+	OPD not updated
+98 - CS_BOMOI******************************
+	OPD not updated
+99 - CS_CADC_SUMBI******************************
+	OPD not updated
+100 - CS_DIKI******************************
+	OPD not updated
+101 - CS_LA_SAMARITAINE******************************
+	OPD not updated
+102 - CS_LUZINGU******************************
+	OPD not updated
+103 - CS_MATERNITE_N_DJILI##############################
+	OPD not updated
+	Existing Staff not updated
+104 - CS_MBAKANI******************************
+	OPD not updated
+105 - CS_AGAPE******************************
+	OPD not updated
+106 - CS_BAOBAB******************************
+	OPD not updated
+107 - CS_CMC******************************
+	OPD not updated
+108 - CS_LE_ROCHER******************************
+	OPD not updated
+109 - CS_MERVEILLE******************************
+	OPD not updated
+110 - CS_MOBENGE******************************
+	OPD not updated
+111 - CS_MPILA******************************
+	OPD not updated
+112 - CS_WOCHOP******************************
+	OPD not updated
+113 - CS_KM2
+114 - CS_MANGOBO
+115 - CS_MIZEITUNI
+116 - CS_KAILO1
+117 - CS_MUYENGO
+118 - CS_KAILO2
+119 - CS_BOBELA
+120 - CS_NKENYE
+121 - CS_KAKUTYA1
+122 - CS_KAUTA
+123 - CS_KM18
+124 - CS_MARINGA
+125 - CS_BASOKO
+126 - CS_RVA
+127 - CS_TROIS_Z
+128 - CS_CAMP_CENTRAL
+129 - CS_CATHOLIQUE_WAMAZA
+130 - CS_KIMBANSEKE1
+131 - CS_KAREL
+132 - CS_MBATI
+133 - CS_TANDA
+134 - CS_BARACA
+135 - CS_PILOTE_BILI
+136 - CS_BOSOSAMA
+137 - CS_PILOTE
+138 - CS_CITE_II
+139 - CS_URBAIN
+140 - CS_BOLINGO
+141 - CS_GBADO_1
+142 - CS_GBADO_2
+143 - CS_KARAWA_CITE
+144 - CS_KARAWA_URBAIN
+145 - CS_GBUDA
+146 - CS_LOKO
+147 - CS_BASSA
+148 - CS_MBUI
+149 - CS_MOBAYI
+150 - CS_TONGOMO
+151 - CS_VABESU
+152 - HGR_BUMBU******************************
+	OPD not updated
+153 - HGR_KASA_VUBU******************************
+	OPD not updated
+154 - HGR_KIKIMI******************************
+	OPD not updated
+155 - HGR_KINGASANI******************************
+	OPD not updated
+156 - HGR_KISENSO******************************
+	OPD not updated
+157 - HGR_MATETE******************************
+	OPD not updated
+158 - HGR_N_DJILI******************************
+	OPD not updated
+159 - HGR_NGABA******************************
+	OPD not updated
+160 - CS_WAPINDA
+161 - HGR_SARAMABILA
+162 - CS_GBOSA
+163 - CS_YAKOMA_CITE
+164 - CS_YAKOMA_MISSION
+Number of files created: 164
+Total number of lines read from OPD.xls: 4180
+Total facilities with OPD updated correctly: 99
+Total facilities with OPD not updated: 65
+Total facilities with Existing Staff updated correctly: 158
+Total facilities with Existing Staff not updated: 6

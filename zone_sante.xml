@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>  
+      <elements>
+        <!-- <DPS KINSHASA> -->
+		<element id="17" name="MATETE">
+          <value key="region" value="4" />
+        </element>
+        <element id="14" name="KIKIMI">
+          <value key="region" value="4" />
+        </element>
+		
+		<element id="19" name="NGABA">
+          <value key="region" value="4" />
+        </element>
+		
+		<element id="13" name="KASA_VUBU">
+          <value key="region" value="4" />
+        </element>
+		
+		<element id="16" name="KISENSO">
+          <value key="region" value="4" />
+        </element>
+		
+		<element id="12" name="BUMBU">
+          <value key="region" value="4" />
+        </element>
+		
+		<element id="15" name="KINGASANI">
+          <value key="region" value="4" />
+        </element>
+		
+		<element id="18" name="N DJILI">
+          <value key="region" value="4" />
+        </element>
+		<!-- <DPS NORD UBANGI> -->
+		<element id="27" name="ABUZI">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="28" name="BILI">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="29" name="BOSOBOLO">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="30" name="BUSINGA">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="31" name="GBADOLITE">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="32" name="KARAWA">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="33" name="LOKO">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="34" name="MOBAYI_MBONGO">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="35" name="WAPINDA">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="2" name="WASOLO">
+          <value key="region" value="6" />
+        </element>
+		
+		<element id="36" name="YAKOMA">
+          <value key="region" value="6" />
+        </element>
+		<!-- <DPS KASAI CENTRAL> -->
+		<element id="20" name="KANANGA">
+          <value key="region" value="2" />
+        </element>
+		<element id="5" name="DEMBA">
+          <value key="region" value="2" />
+        </element>
+		<element id="9" name="MIKALAYI">
+          <value key="region" value="2" />
+        </element>
+		<element id="38" name="TSHIKAJI">
+          <value key="region" value="2" />
+        </element>
+		<element id="37" name="NDESHA">
+          <value key="region" value="2" />
+        </element>
+		<element id="6" name="KATOKA">
+          <value key="region" value="2" />
+        </element>
+		<element id="8" name="LUKONGA">
+          <value key="region" value="2" />
+        </element>
+		<!-- <DPS KASAI> -->
+		<element id="1" name="KITANGUA">
+          <value key="region" value="1" />
+        </element>
+		<element id="2" name="KANZALA">
+          <value key="region" value="1" />
+        </element>
+        <element id="3" name="KALONDA_OUEST">
+          <value key="region" value="1" />
+        </element>
+		<element id="4" name="TSHIKAPA">
+          <value key="region" value="1" />
+        </element>
+		<!-- <DPS MANIEMA> -->
+		<element id="21" name="ALUNGULI">
+          <value key="region" value="5" />
+        </element>
+		<element id="22" name="KAILO">
+          <value key="region" value="5" />
+        </element>
+        <element id="23" name="KALIMA">
+          <value key="region" value="5" />
+        </element>
+		<element id="24" name="KASONGO">
+          <value key="region" value="5" />
+        </element>
+		<element id="25" name="KINDU">
+          <value key="region" value="5" />
+        </element>
+		<element id="26" name="SARAMABILA">
+          <value key="region" value="5" />
+        </element>
+      </elements>
