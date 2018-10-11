@@ -238,7 +238,7 @@ List of facilities created:
 163 - CS_YAKOMA_CITE
 164 - CS_YAKOMA_MISSION
 Number of files created: 164
-Total number of lines read from OPD.xls: 4180
+Total number of lines read from OPD.xls: 523
 Total facilities with OPD updated correctly: 99
 Total facilities with OPD not updated: 65
 Total facilities with Existing Staff updated correctly: 158
