@@ -90,7 +90,7 @@ public class ReadActivities {
 
   public static void main(String[] args) throws IOException {
       
-    ReadProperties p=new ReadProperties();
+    PropertyReader p=new PropertyReader();
       
     ReadActivities test = new ReadActivities(p.getActivitiesFileName());
     

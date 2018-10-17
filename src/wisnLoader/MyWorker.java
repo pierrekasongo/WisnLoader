@@ -1,13 +1,19 @@
 /*
- * To change this template, choose Tools | Templates
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 package wisnLoader;
 
-import java.util.Map;
+import gui.FrmMain;
+import java.io.IOException;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JTextArea;
+import javax.swing.SwingWorker;
 
- /**
- * @author Jason Ndemueda<jndemueda@intrahealth.org><ndemuedajason@gmail.com>
+/**
  * @author Pierre Kasongo<pkasongo@intrahealth.org><pierrekasongo88@gmail.com>
  * COPYRIGHT NOTICE
  * WISN Loader, a program developed by IntraHealth International (<intrahealth@intrahealth.org>)
@@ -26,44 +32,66 @@ import java.util.Map;
  * <http://www.gnu.org/licenses/>.
  * 
  */
+//From: http://www.javacreed.com/swing-worker-example/
 
-public class Main {       
-    /**
-     * @param argv
-     * @throws Exception 
-     */
+public class MyWorker extends SwingWorker<Integer, String>{
     
-    public static void main(String argv[]) throws Exception {
+    private JTextArea logScreen;
+    
+    private PropertyReader rp;
+    
+    private WatFileCreator m;
+   
+    
+    public MyWorker(final JTextArea _logScreen,PropertyReader _rp,WatFileCreator _m){
+        this.logScreen=_logScreen;
+        this.rp=_rp;
+        this.m=_m;
+    }
+    
+    @Override
+    protected Integer doInBackground() throws Exception {
         
-        PropertyReader rp=new PropertyReader();
-
-        //Load regions from template
-        //Load districts from template
-        //Load facility types from template
-        
-        TemplateData data;
-        
-        WatFileCreator m = new WatFileCreator();        
-        ConstantValues cons=new ConstantValues();
-        cons.Copyright();
-        cons.Statement();
-        System.out.println("STARTING WISN LOADER ........");
-        System.out.println();
-        System.out.println("___________________GENERATING THE FACILITIES (.wat)___________________");
-        System.out.println();
-        m.loadingExcelFile(rp.getFacilitiesFileName()); 
-
-        m.readActivities();
-        
+        publish("Processing started");
+        // Simulate doing something useful.
+//        int size=50;
+//        
+//        int sum=0;
+//        
+//        for (int i = 0; i <= size; i++) {
+//            
+//            Thread.sleep(100);
+//            
+//            setProgress((i + 1) * 100 / size);
+//            
+//            publish("Processing line "+(i+1));
+//            
+//            sum+=i;
+//            
+//        }
+//        return sum;
         int i;
+        
+        int count=0;
         
         ReadFacilities r=new ReadFacilities(rp.getFacilitiesFileName());
         
-        int size=r.getFacilities().size();
+        int size = 0;
+        try {
+            size = r.getFacilities().size();
+        } catch (IOException ex) {
+            Logger.getLogger(FrmMain.class.getName()).log(Level.SEVERE, null, ex);
+        }
 
         String templateFolder=rp.getTemplateFolderName();//"templates//template_hgr.xml";
         
+        TemplateData data;
+        
         for( i = 0 ; i < size ; i++){
+            
+            count++;
+            
+            setProgress((i + 1) * 100 / size);
             
             String regionName=m.getFacilities().get(i).getRegion();
             
@@ -81,9 +109,27 @@ public class Main {
             
             data.setTemplateFile(templateFile);
             
+            publish(count+" "+regionName+" "+institutionName+" "+institutionType);
+            
             m.processFacility(i,m, institutionType,institutionTypeDesc,institutionName,templateFile,regionName);         
         }
         System.out.println("----------------------"+LogFile.getNumberFilesCreated()+" Files Created!!! ----------------------");
-        LogFile.writeLog();
-    } 
+        try {
+            LogFile.writeLog();
+            
+        } catch (Exception ex) {
+            Logger.getLogger(FrmMain.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return count;
+    }
+    
+    @Override
+    protected void process(final List<String>chunks){
+        for (final String string : chunks) {
+            logScreen.append(string);
+            logScreen.append("\n");
+        }
+    }
+    
 }

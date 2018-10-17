@@ -87,7 +87,7 @@ public class ReadExistingStaff {
 
   public static void main(String[] args) throws IOException {
       
-    ReadProperties p=new ReadProperties();
+    PropertyReader p=new PropertyReader();
       
     ReadExistingStaff test = new ReadExistingStaff(p.getStaffFileName());
     
